@@ -1,9 +1,13 @@
 body {
         background-color: orange; 
-        font-family: Helvetica, Arial, sans-serif;
 }
 
 p {
         font-size: small; 
-        font-style: cursive;
+        font-family: sans-serif;
 }
+
+h1 {
+        font-style: italic;
+}
+        
