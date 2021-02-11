@@ -8,7 +8,9 @@ p {
 }
 
 h1 {
-        font: italic, small-caps, bold;
+        font-style: italic;
+        font-variant: small-caps;
+        font-bold: bold;
 }
         
         
