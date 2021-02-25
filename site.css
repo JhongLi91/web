@@ -1,0 +1,19 @@
+body {
+        background-color: orange; 
+}
+
+p {
+        font-size: small; 
+        font-family: sans-serif;
+}
+
+h1 {
+        font-style: italic;
+        font-variant: small-caps;
+        font-bold: bold;
+}
+
+ul {
+        border: 2px solid black
+          
+}
