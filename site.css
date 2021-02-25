@@ -24,3 +24,8 @@ li {
         padding-right: 10px;
 }
 
+.block,
+li {
+       border: 2px solid red;
+       padding: .5em;
+}
