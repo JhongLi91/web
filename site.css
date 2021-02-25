@@ -17,3 +17,7 @@ ul {
         border: 2px solid black;
         list-style: none
 }
+
+.section {
+        display: flex;
+}
