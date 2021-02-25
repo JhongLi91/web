@@ -25,5 +25,9 @@ li {
 }
 
 .section {
-        display: flex;
+        display: flex
+}
+
+img {
+        display: flex
 }
