@@ -18,6 +18,12 @@ ul {
         list-style: none
 }
 
+li {
+        display: inline;
+        padding-left =: 5px;
+        padding-right: 5px;
+}
+
 .section {
         display: flex;
 }
