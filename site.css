@@ -25,5 +25,8 @@ li {
         padding-right: 10px;
 }
 
+.block {
+        display: flex;
+}
 
 
