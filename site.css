@@ -19,7 +19,7 @@ h1 {
         padding: 3px;
 }
 
-.bullet {
+.bullet li {
         display: inline;
         padding-left =: 10px;
         padding-right: 10px;
