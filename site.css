@@ -27,6 +27,12 @@ h1 {
         padding-right: 10px;
 }
 
+.bullet a::after {
+        color: red;
+        font-weight: bold;
+        content: "--";
+}
+
 .block {
         display: flex;
 }
