@@ -5,6 +5,7 @@ body {
 p {
         font-size: medium; 
         font-family: sans-serif;
+        margin-left: 8px;
 }
 
 h1 {
@@ -25,9 +26,8 @@ h1 {
         padding-right: 10px;
 }
 
-.block, p {
+.block {
         display: flex;
-        margin-left: 8px;
 }
 
 
