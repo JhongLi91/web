@@ -23,12 +23,14 @@ h1 {
 
 .bullet {
         display: inline;
+        color: red;
+        font-weight: bold;
+        font-size: 120%;
         padding-left =: 10px;
         padding-right: 10px;
 }
 
 .bullet a::after {
-        color: red;
         font-weight: bold;
         content: "--";
 }
