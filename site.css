@@ -11,6 +11,7 @@ h1 {
         font-style: italic;
         font-variant: small-caps;
         font-bold: bold;
+        border-bottom: 1px solid black;
 }
 
 ul {
@@ -24,8 +25,3 @@ li {
         padding-right: 10px;
 }
 
-.block,
-li {
-       border: 2px solid red;
-       padding: .5em;
-}
