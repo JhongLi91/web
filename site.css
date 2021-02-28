@@ -31,8 +31,10 @@ h1 {
 }
 
 .bullet a::after {
-        font-weight: bold;
+        display: inline-block;
         content: "--";
+        font-size: 120%;
+        padding: 0 3px;
 }
 
 .block {
