@@ -18,6 +18,7 @@ h1 {
 .menu ul {
         border: 2px solid black;
         padding: 3px;
+        list-style: none;
 }
 
 .bullet {
