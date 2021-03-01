@@ -15,6 +15,10 @@ h1 {
         border-bottom: 1px solid black;
 }
 
+h2 {
+        font-weight: bold;
+}
+
 .menu ul {
         border: 2px solid black;
         padding: 3px;
