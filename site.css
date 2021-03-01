@@ -36,8 +36,15 @@ h1 {
         padding-right: 10px;
 
 .bullet a::after {
-        display: inline;
-        content: "--";
+        display: inline-block;
+        content: "-";
+        font-size: 120%;
+        padding: 0 5px;
+}
+
+.bullet a::before {
+        display: inline-block;
+        content: "-";
         font-size: 120%;
         padding: 0 5px;
 }
