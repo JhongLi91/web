@@ -30,14 +30,8 @@ h2 {
         padding-left =: 10px;
         padding-right: 10px;
         font-size: 120%;
-}
-
-.bullet1 {
-        display: inline;
         color: red;
-        font-size: 120%;
-        padding-left =: 10px;
-        padding-right: 10px;
+}
 
 .bullet a::after {
         display: inline-block;
