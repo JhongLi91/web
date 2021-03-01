@@ -15,7 +15,7 @@ h1 {
         border-bottom: 1px solid black;
 }
 
-.menu ul {
+.menu {
         border: 2px solid black;
         padding: 3px;
         list-style: none;
