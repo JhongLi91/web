@@ -52,14 +52,14 @@
   <p>
     A model is abstractly:
   </p>
-    <li>
-      <ul>
+    <ul>
+      <li>
         A function that computes something on tensors (a forward pass)
-      </ul>
-      <ul>
+      </li>
+      <li>
         Some variables that can be updated in response to trainings
-      </ul>
-    </li>
+      </li>
+    </ul>
   <p>
     For easier understanding, models are just some kind of function that serves as a checkpoint for trainings.
   </p>
@@ -73,26 +73,26 @@
     Solving machine learning problems usually follow these steps:
   </p>
 
-  <li>
-    <ul>
+  <ul>
+    <li>
         Obtain trainable data
-    </ul>
-    <ul>
+    </li>
+    <li>
         Define the model
-    </ul>
-    <ul>
+    </li>
+    <li>
         Define a loss function
-    </ul>
-    <ul>
+    </li>
+    <li>
         Run through the training data, calculating loss from the ideal value
-    </ul>
-    <ul>
+    </li>
+    <li>
         Calculate gradients for that loss and use an optimizer to adjust the variables to fit the data
-    </ul>
-    <ul>
+    </li>
+    <li>
         Evalute your results
-    </ul>
-  </li>
+    </li>
+  </ul>
 
 
 </html>
