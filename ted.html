@@ -51,6 +51,7 @@
   </h1>
   <p>
     A model is abstractly:
+  </p>
     <li>
       <ul>
         A function that computes something on tensors (a forward pass)
@@ -60,7 +61,23 @@
       </ul>
     </li>
 
-    Models are just some kind of function that serves as a checkpoint for trainings.
+  <p>
+    For easier understanding, models are just some kind of function that serves as a checkpoint for trainings.
+  </p>
+
+  <h1>
+    Training
+  </h1>
+
+  <p>
+    Many machine learning systems have a way to train its models that's how it gets smarter and its purpose is to simply make better models each time it is trained.
+    For the sake of simplicity, we have here a somewhat randomly generated data, but you can see that it follows a linear curve this is for the sake of demonstration. The job of the machine or AI is to find the linear regression or line of best fit. We can easily see that in this example.
+
+    Solving machine learning problems usually follow these steps:
+    There are other kinds of loss functions like Mean Absolute Error loss, square or quadratic loss functions. Machine learning use loss functions to determine whether or not the new model is better than the previous one. The goal is to minimize the loss.
+
+    On this graph, we can see the blue dots as our trainable datas and the orange curve which is our ground truth
+    The green line is our first model, this is usually randomized because in real life applications we do not know what the ground truth is. But here we know it's linear for the sake of simplicity. You can see here it says  “in practice these should be randomly initialized.
   </p>
 
 
