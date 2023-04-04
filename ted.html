@@ -53,13 +53,13 @@
     A model is abstractly:
   </p>
     <li>
+      <ul>
         A function that computes something on tensors (a forward pass)
-    </li>
-
-    <li>
+      </ul>
+      <ul>
         Some variables that can be updated in response to trainings
+      </ul>
     </li>
-
   <p>
     For easier understanding, models are just some kind of function that serves as a checkpoint for trainings.
   </p>
@@ -71,15 +71,28 @@
   <p>
     Many machine learning systems have a way to train its models that's how it gets smarter and its purpose is to simply make better models each time it is trained.
     Solving machine learning problems usually follow these steps:
-
-    <img src="https://cdn-images-1.medium.com/max/1600/1*KzmIUYPmxgEHhXX7SlbP4w.jpeg" alt="Steps to Solve Machine Learning Problems">
-
-
-    There are other kinds of loss functions like Mean Absolute Error loss, square or quadratic loss functions. Machine learning use loss functions to determine whether or not the new model is better than the previous one. The goal is to minimize the loss.
-
-    On this graph, we can see the blue dots as our trainable datas and the orange curve which is our ground truth
-    The green line is our first model, this is usually randomized because in real life applications we do not know what the ground truth is. But here we know it's linear for the sake of simplicity. You can see here it says  “in practice these should be randomly initialized.
   </p>
+
+  <li>
+    <ul>
+        Obtain trainable data
+    </ul>
+    <ul>
+        Define the model
+    </ul>
+    <ul>
+        Define a loss function
+    </ul>
+    <ul>
+        Run through the training data, calculating loss from the ideal value
+    </ul>
+    <ul>
+        Calculate gradients for that loss and use an optimizer to adjust the variables to fit the data
+    </ul>
+    <ul>
+        Evalute your results
+    </ul>
+  </li>
 
 
 </html>
